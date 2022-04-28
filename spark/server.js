@@ -32,7 +32,7 @@ app.use(express.json());
 
 // Insert your values here
 const sparkAccessToken ='NTQ3NDZlM2QtMWNjZC00ZmI0LWEwMzUtMTk5Y2M5ZmM2YzA0NGM5M2VjZDctNmFl_PF84_1eb65fdf-9643-417f-9974-ad72cae0e10f';
-const targetUrl = 'https://gcp-consolebot-nprd-44254.uc.r.appspot.com/webhook';
+const targetUrl = 'https://dialogflow-spark-se43jukzha-uc.a.run.app';
 const projectId = 'gcp-consolebot-nprd-44254';
 
 const sessionClient = new dialogflowSessionClient(projectId);
