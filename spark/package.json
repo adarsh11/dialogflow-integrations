@@ -15,7 +15,7 @@
     "node": "8.x"
   },
   "repository": {
-    "url": "insert URL here"
+    "url": "https://github.com/adarsh11/dialogflow-integrations.git"
   },
   "license": "Apache-2.0"
 }

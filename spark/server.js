@@ -31,9 +31,9 @@ app.use(express.json());
 // Upon closure the webhook is removed from spark
 
 // Insert your values here
-const sparkAccessToken ='Place your spark personal access token here';
-const targetUrl = 'Place you servers URL here';
-const projectId = 'Place your dialogflow projectId here';
+const sparkAccessToken ='NTQ3NDZlM2QtMWNjZC00ZmI0LWEwMzUtMTk5Y2M5ZmM2YzA0NGM5M2VjZDctNmFl_PF84_1eb65fdf-9643-417f-9974-ad72cae0e10f';
+const targetUrl = 'https://gcp-consolebot-nprd-44254.uc.r.appspot.com/webhook';
+const projectId = 'gcp-consolebot-nprd-44254';
 
 const sessionClient = new dialogflowSessionClient(projectId);
 
